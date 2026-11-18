@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local binaries & audio files
+ffmpeg
+*.wav
+*.md
+!README.md
+
+# macOS system files
+.DS_Store
+
