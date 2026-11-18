@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### 3. Link Local FFmpeg (macOS)
 ```bash
-ln -sf \$(python -c "import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())") ./ffmpeg
+ln -sf $(python -c "import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())") ./ffmpeg
 ```
 
 ## Usage
